@@ -50,7 +50,7 @@ This repository includes all required deliverables for the assignment:
 
 The system is built around a modular design for reliability and maintainability.
 
-![System Architecture](docs/architecture.png)
+![System Architecture](OverallSysDesign.png)
 
 - **User/Client**: Submits requests through REST endpoints  
 - **FastAPI App** (`app.py`): Handles requests, responses, job management  
