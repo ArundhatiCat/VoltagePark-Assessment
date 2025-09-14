@@ -52,14 +52,13 @@ The system is built around a modular design for reliability and maintainability.
 
 ![System Architecture](OverallSysDesign.png)
 
-- **User/Client**: Submits requests through REST endpoints  
-- **FastAPI App** (`app.py`): Handles requests, responses, job management  
-- **Job Store**: Tracks job states (pending/processing/completed/failed)  
-- **CogVideoX Model**: HuggingFace text-to-video pipeline accelerated on GPU  
-- **Output Videos**: Generated `.mp4` files  
-- **Logs**: Structured logging for traceability and debugging  
+- **Client Application**: Submits requests through REST endpoints  
+- **API Service (FastAPI)**: Handles requests, responses, job management  
+- **Job Manager**: Tracks job states (pending/processing/completed/failed)  
+- **Model Inference Engine**: CogVideoX model pipeline accelerated on GPU  
+- **Video Output Store**: Stores generated `.mp4` files  
+- **Logging Service**: Captures structured logs for traceability and debugging  
 - **System Health Monitor**: Reports CPU, RAM, and GPU usage  
-
 
 ---
 
