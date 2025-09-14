@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+diffusers
+transformers
+accelerate
+huggingface_hub
+psutil
+# xformers  # optional; only add a specific version if you know it matches your torch
+sentencepiece
+protobuf
+safetensors
+einops
